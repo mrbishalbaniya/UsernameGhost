@@ -1,20 +1,37 @@
-## UsernameGhost
-UsernameGhost is a Python tool that searches for a given username across multiple social media platforms. It checks various sites to see if the username exists and organizes the results into "Available," "Not Available," and "Errors" categories. The results are also saved to a JSON file for further analysis.
+# UsernameGhost: Powerful Social Media Username Search Tool
+
+![Social Media Username Search]  
+
+## Overview
+
+**UsernameGhost** is a cutting-edge tool designed for quick and accurate **social media username search** across multiple platforms. Whether you're a **cybersecurity researcher**, **digital marketer**, or just someone interested in **tracking usernames** online, UsernameGhost provides an efficient solution for finding where a specific username is used on popular social media networks.
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Installation](#installation)
+   - [Requirements](#requirements)
+   - [Clone the Repository](#clone-the-repository)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [License](#license)
 
 ## Features
-Username Search Across Multiple Platforms: Quickly check if a username is available across various social media platforms.
-Progress Bar: A progress bar is displayed to show the search status for each platform.
-Organized Output: The results are categorized into Available, Not Available, and Errors.
-JSON Output: Saves the results in a well-structured JSON file.
 
-## Prerequisites
-Python 3.x
-requests library
-tqdm library (for the progress bar)
+- **Fast Username Search**: Quickly checks multiple social media platforms for the given username.
+- **Real-time Progress Bar**: Monitor the search status with an interactive progress bar.
+- **Results in JSON**: Saves the found usernames and URLs in a clean, easy-to-read JSON file.
+- **Focused Output**: Displays only the **available usernames** and their corresponding URLs, filtering out the unavailable ones.
 
 ## Installation
-On Linux/Termux
-Install Dependencies: Ensure you have Python 3, and the required libraries installed. If not, install them using:
+
+### Requirements
+
+Before you start using **UsernameGhost**, ensure you have the following prerequisites installed:
+
+- **Python 3.x**: The latest version of Python is recommended.
+- **Python Libraries**: Install the required libraries using `pip`:
+
 
 bash
 ```bash
